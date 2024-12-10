@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,45 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+
+/* App.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #f8f8f8;
+}
+
+.header nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .header nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main {
+    padding: 10px;
   }
 }
